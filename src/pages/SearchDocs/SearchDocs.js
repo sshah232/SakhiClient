@@ -101,7 +101,7 @@ const SearchDocs = () => {
                   </td>
                   <td>
                     <h1 className="text-lg font-semibold text-blue-800">
-                      {doc?.full_address}
+                      {doc?.full_address || "No address available"}
                     </h1>
                   </td>
                   <td>
